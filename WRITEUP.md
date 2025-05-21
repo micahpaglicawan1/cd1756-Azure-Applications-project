@@ -2,11 +2,8 @@
 
 ### Analyze, choose, and justify the appropriate resource option for deploying the app.
 
-*For **both** a VM or App Service solution for the CMS app:*
-- *Analyze costs, scalability, availability, and workflow*
-- *Choose the appropriate solution (VM or App Service) for deploying the app*
-- *Justify your choice*
+*App Service is the ideal choice for deploying the CMS app because it is more cost-effective, easier to scale, highly available, and simplifies the deployment process compared to VMs. This makes it ideal for lightweight applications like the CMS app, which does not need high-performance computing.*
 
 ### Assess app changes that would change your decision.
 
-*Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
+*While App Service is ideal for the current lightweight and scalable needs of the CMS app, a shift to VMs would be justified if the app's user base grows significantly or if there are specific performance (i.e. high compute not supported by App Service) and security requirements (e.g. handling sensitive data or complying with strict regulation) that require dedicated server resources.* 
